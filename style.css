@@ -1,0 +1,15 @@
+#takepic:hover{
+background-color: rgb(9, 98, 98);
+}
+canvas{
+    animation-name:steps;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes steps{
+    from{box-shadow:1px 1px 38px rgb(142, 8, 142);     
+    }
+    to{
+        box-shadow:1px 1px 38px rgb(8, 173, 19)
+    }
+}
